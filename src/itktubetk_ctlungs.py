@@ -23,13 +23,13 @@ def is_bundled():
 
 def get_lib_path():
     if is_bundled():
-        return os.path.join(sys._MEIPASS, "itktubetk_ctlungs")
+        return os.path.join(sys._MEIPASS, "ITKTubeTK_CTLungs")
     return os.path.dirname(os.path.realpath(__file__)) + "/../lib"
 
 
 def get_bin_path():
     if is_bundled():
-        return os.path.join(sys._MEIPASS, "itktubetk_ctlungs", "bin")
+        return os.path.join(sys._MEIPASS, "ITKTubeTK_CTLungs", "bin")
     return os.path.dirname(os.path.realpath(__file__)) + "/bin"
 
 
