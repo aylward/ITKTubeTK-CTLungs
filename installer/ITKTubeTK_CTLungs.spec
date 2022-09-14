@@ -22,9 +22,9 @@ binaries = []
 binaries += gather_mkl_dlls()
 
 datas = []
-datas += [('../lib/*.py', 'ITKTubeTK-CTLungs')]
-datas += [('../src/*.py', 'ITKTubeTK-CTLungs')]
-datas += [('../src/bin/*.exe', 'ITKTubeTK-CTLungs/bin')]
+datas += [('../lib/*.py', 'ITKTubeTK_CTLungs')]
+datas += [('../src/*.py', 'ITKTubeTK_CTLungs')]
+datas += [('../src/bin/*.exe', 'ITKTubeTK_CTLungs/bin')]
 
 hiddenimports = ['site']
 
